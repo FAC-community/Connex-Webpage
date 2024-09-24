@@ -22,10 +22,23 @@
     width: 100%;
 }
 
+@keyframes box-anim {
+    0% {
+        background-color: gray;
+    }
+    50% {
+        background-color: lightgray;
+    }
+    100% {
+        background-color: gray;
+    }
+}
+
 .box {
     background-color: gray;
     padding: 20px;
     display: inline;
     text-align: center;
     border-radius: 20px;
+    animation: box-anim 5s linear infinite;
 }
