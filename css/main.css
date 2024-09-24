@@ -1,0 +1,17 @@
+.huge-text {
+    font-size: 150px;
+    font-family: fantasy;
+    text-align: center;
+    color:cornflowerblue;
+    text-shadow: 10px 10px 5px black;
+    transition: 0.5s;
+}
+
+.huge-text:hover {
+    color:blue;
+}
+
+.tiny-text {
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
